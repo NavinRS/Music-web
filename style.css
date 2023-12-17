@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.4;
+    font-weight: 600;
+    font-size: large;
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.Container {
+    min-width: 1200px;
+    margin: 0px 10px;
+}
+
+header {
+    background-color: purple;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Logo {
+    font-size: 32px;
+    font-weight: 600;
+    color: aqua;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+nav ul li {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+
+
+nav ul li :hover {
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in-out;
+}
+
+.Hero {
+    background-image: url(images/hero_image.png);
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    color: aqua;
+    text-align: center;
+}
+
+.Hero h1 {
+    font-size: 72px;
+}
+
+
+.Hero h3 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.Music-section {
+    padding-top: 50px;
+    background-color: purple;
+}
+
+.Music-section .container {
+    text-align: center;
+    align-items: center;
+    color: aqua;
+    padding: 20 0;
+
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    background-color: red;
+    color: aqua;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    color: yellowgreen
+}
+
+.ipad-iphone-img {
+    margin-top: -400;
+    position: relative;
+    top: 300px;
+
+}
+
+.about-music {
+
+    padding-top: 400px;
+    text-align: center;
+    gap: 50px;
+}
+
+.mac-img {
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+
+}
+
+.secondary-btn {
+    background-color: blueviolet;
+}
+
+.video-section {
+    background-image: url(images/video.png);
+    min-height: 700px;
+    display: grid;
+    color: aqua;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.video-section .container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.Hero,
+.video-section {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Gift-section {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 50px;
+    align-items: center;
+
+
+}
+
+.Gift-section p {
+    font-size: 15px;
+}
+
+.Tertiary-btn {
+    background-color: blueviolet;
+}
+
+.footer-upper {
+
+    background-color: purple;
+    padding: 20px;
+
+}
+
+.footer-upper .container {
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+    list-style: none;
+
+}
+
+.lower-footer {
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.gift-section {
+    scroll-margin: 120px;
+}
